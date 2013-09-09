@@ -7,14 +7,22 @@ It provides a full and flexible toolset for embedding Youtube videos.
 Documentation
 -------------
 
-### Reference
+### Installation
 
-You can read the documentation of the version 0.1 [here](http://ketshup.com.br/jYmbed/docs/):
+To use the jYmbed plugin, include the jQuery library and the jCarousel source file into your HTML document:
 
-  * [Installation](http://ketshup.com.br/jYmbed/docs/installation.html)
-  * [Configuration](http://ketshup.com.br/jYmbed/docs/configuration.html)
-  * [Usage](http://ketshup.com.br/jYmbed/docs/usage.html)
-  * [Events](http://ketshup.com.br/jYmbed/docs/events.html)
+<script type="text/javascript" src="/path/libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/path/dist/jquery.jYmbed.js"></script>
+
+To setup jYmbed, add the following code to your HTML document:
+
+<code>
+<script>
+	$(document).ready(function(){
+		$(".youtube").jYmbed();
+	});
+</script>
+</code>
 
 Download
 --------
