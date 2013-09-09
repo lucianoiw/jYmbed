@@ -48,7 +48,6 @@
 
 			if($yid){
 				var $src = "http://www.youtube.com/embed/" + $yid;
-
 				$attr["width"] = $this.is("[data-width]") ? $this.data("width") : $attr["width"];
 				$attr["height"] = $this.is("[data-height]") ? $this.data("height") : $attr["height"];
 
