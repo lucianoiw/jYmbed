@@ -11,8 +11,10 @@ Documentation
 
 To use the jYmbed plugin, include the jQuery library and the jCarousel source file into your HTML document:
 
+```
 <script type="text/javascript" src="/path/libs/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/path/dist/jquery.jYmbed.js"></script>
+```
 
 To setup jYmbed, add the following code to your HTML document:
 
@@ -23,6 +25,13 @@ To setup jYmbed, add the following code to your HTML document:
 	});
 </script>
 ```
+
+These are the minimal HTML settings for a embedding Youtube video:
+
+```
+<div class="youtube">http://www.youtube.com/watch?v=ScMzIvxBSi4</div>
+```
+
 
 Download
 --------
