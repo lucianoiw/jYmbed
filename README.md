@@ -16,13 +16,13 @@ To use the jYmbed plugin, include the jQuery library and the jCarousel source fi
 
 To setup jYmbed, add the following code to your HTML document:
 
-<code>
+```
 <script>
 	$(document).ready(function(){
 		$(".youtube").jYmbed();
 	});
 </script>
-</code>
+```
 
 Download
 --------
