@@ -1,7 +1,8 @@
 jYmbed
 ======
 
-jYmbed is a jQuery simple plugin for embedding a Youtube videos from a url of the video. It provides a full and flexible toolset for embedding Youtube videos.
+jYmbed is a jQuery simple plugin for embedding a Youtube videos from a url of the video.
+It provides a full and flexible toolset for embedding Youtube videos.
 
 Documentation
 -------------
