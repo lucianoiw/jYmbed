@@ -9,12 +9,12 @@ Documentation
 
 ### Reference
 
-You can read the documentation of the version 0.1 [here](http://sorgalla.com/jcarousel/docs/):
+You can read the documentation of the version 0.1 [here](http://ketshup.com.br/jYmbed/docs/):
 
-  * [Installation](http://ketshup.com.br/jymbed/docs/installation.html)
-  * [Configuration](http://ketshup.com.br/jymbed/docs/configuration.html)
-  * [Usage](http://ketshup.com.br/jymbed/docs/usage.html)
-  * [Events](http://ketshup.com.br/jymbed/docs/events.html)
+  * [Installation](http://ketshup.com.br/jYmbed/docs/installation.html)
+  * [Configuration](http://ketshup.com.br/jYmbed/docs/configuration.html)
+  * [Usage](http://ketshup.com.br/jYmbed/docs/usage.html)
+  * [Events](http://ketshup.com.br/jYmbed/docs/events.html)
 
 Download
 --------
