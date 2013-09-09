@@ -1,9 +1,6 @@
 jYmbed
 ======
 
-Embed videos from youtube by the url of the video
-
-
 jYmbed is a jQuery simple plugin for embedding a Youtube videos from a url of the video. It provides a full and flexible toolset for embedding Youtube videos.
 
 Documentation
@@ -13,11 +10,10 @@ Documentation
 
 You can read the documentation of the version 0.1 [here](http://sorgalla.com/jcarousel/docs/):
 
-  * [Installation](http://sorgalla.com/jcarousel/docs/reference/installation.html)
-  * [Configuration](http://sorgalla.com/jcarousel/docs/reference/configuration.html)
-  * [API](http://sorgalla.com/jcarousel/docs/reference/api.html)
-  * [Usage](http://sorgalla.com/jcarousel/docs/reference/usage.html)
-  * [Events](http://sorgalla.com/jcarousel/docs/reference/events.html)
+  * [Installation](http://ketshup.com.br/jymbed/docs/installation.html)
+  * [Configuration](http://ketshup.com.br/jymbed/docs/configuration.html)
+  * [Usage](http://ketshup.com.br/jymbed/docs/usage.html)
+  * [Events](http://ketshup.com.br/jymbed/docs/events.html)
 
 Download
 --------
@@ -39,4 +35,3 @@ License
 
 Copyright (c) 2013 Luciano Souza.
 Released under the [MIT](LICENSE?raw=1) license.
-
