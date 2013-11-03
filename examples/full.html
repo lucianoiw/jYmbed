@@ -5,7 +5,7 @@
 	<title>jYmbed Full Example</title>
 </head>
 <body>
-	<div class="youtube" data-videoUrl="http://www.youtube.com/watch?v=ScMzIvxBSi4" data-theme="light" data-showinfo="true" data-start="0" data-width="450" data-height="300" data-controls="true" data-autoplay="true">Youtube</div>
+	<div class="youtube" data-videoUrl="http://www.youtube.com/watch?v=ScMzIvxBSi4" data-showinfo="true" data-start="0" data-width="450" data-height="300" data-controls="true" data-autoplay="true">Youtube</div>
 
 	<!-- libs -->
 	<script src="../libs/jquery-1.10.2.min.js"></script>
@@ -24,7 +24,8 @@
 				controls: true,
 				showinfo: false,
 				autohide: 2,
-				loop : false,
+				loop: false,
+				theme: "light",
 				onReady: function(event, player, player_id, video_id){
 					console.log("Video: "+ video_id +", duration: " + player.getDuration() + " seconds");
 				},
