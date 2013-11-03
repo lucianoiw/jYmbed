@@ -2,11 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>jYmbed Examples</title>
+	<title>jYmbed Full Example</title>
 </head>
 <body>
-	<div class="youtube" data-url="http://www.youtube.com/watch?v=ScMzIvxBSi4&feature=player_embedded" data-width="400" data-height="300" data-autoplay="true" data-suggested="false" data-autoplay="true">Youtube</div>
-
+	<div class="youtube" data-videoUrl="http://www.youtube.com/watch?v=ScMzIvxBSi4" data-theme="light" data-showinfo="true" data-start="0" data-width="450" data-height="300" data-controls="true" data-autoplay="true">Youtube</div>
 
 	<!-- libs -->
 	<script src="../libs/jquery-1.10.2.min.js"></script>
@@ -15,8 +14,30 @@
 	<script src="../dist/jquery.jYmbed.min.js"></script>
 
 	<script>
-		$(document).ready(function(){
-			$(".youtube").jYmbed();
+		$(window).load(function(){
+			$(".youtube").jYmbed({
+				width: 560,
+				height: 315,
+				autoplay: true,
+				rel: false,
+				color: "red",
+				controls: true,
+				showinfo: false,
+				autohide: 2,
+				loop : false,
+				onReady: function(event, player, player_id, video_id){
+					console.log("Video: "+ video_id +", duration: " + player.getDuration() + " seconds");
+				},
+				onStateChange: function(state, player, player_id, video_id){
+					console.log("Video: "+ video_id +", state: " + state);
+				},
+				onPlaybackView: function(percente, player, player_id, video_id){
+					console.log("Video: "+ video_id +", visualized " + percente + "%");
+				},
+				onPlaybackQualityChange: function(quality, player, player_id, video_id){
+					console.log("Video: "+ video_id +", quality: " + quality);
+				}
+			});
 		});
 	</script>
 </body>

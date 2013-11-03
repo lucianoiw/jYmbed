@@ -2,20 +2,19 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>jYmbed Examples</title>
+	<title>jYmbed Basic Example</title>
 </head>
 <body>
-	<div class="youtube">http://www.youtube.com/watch?v=ScMzIvxBSi4</div>
-
+	<div class="youtube" data-videoId="ScMzIvxBSi4">Youtube</div>
 
 	<!-- libs -->
 	<script src="../libs/jquery-1.10.2.min.js"></script>
 
 	<!-- plugins -->
-	<script src="../dist/jquery.jYmbed.js"></script>
+	<script src="../dist/jquery.jYmbed.min.js"></script>
 
 	<script>
-		$(document).ready(function(){
+		$(window).load(function(){
 			$(".youtube").jYmbed();
 		});
 	</script>
