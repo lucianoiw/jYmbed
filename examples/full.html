@@ -26,8 +26,10 @@
 				autohide: 2,
 				loop: false,
 				theme: "light",
-				onReady: function(event, player, player_id, video_id){
+				onReady: function(event, player, player_id, video_id, callback){
 					console.log("Video: "+ video_id +", duration: " + player.getDuration() + " seconds");
+
+                    if(callback) callback();
 				},
 				onStateChange: function(state, player, player_id, video_id){
 					console.log("Video: "+ video_id +", state: " + state);
